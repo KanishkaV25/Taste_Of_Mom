@@ -7,7 +7,7 @@ export default function ProductList({ addToCart }) {
   const [filter, setFilter] = useState('All') // 'All' | 'Top Rated' | 'North Indian' ... 
 
   useEffect(() => {
-    fetch('/api/products')
+    fetch('https://tasteofmom.onrender.com/api/products')
       .then(res => res.json())
       .then(data => {
         setProducts(data)

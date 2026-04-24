@@ -5,7 +5,7 @@ export default function OrderHistory({ setPage }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/api/orders')
+    fetch('https://tasteofmom.onrender.com/api/orders')
       .then(res => res.json())
       .then(data => {
         setOrders(data)

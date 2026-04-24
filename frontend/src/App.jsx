@@ -20,7 +20,7 @@ export default function App() {
 
   // Fetch cart from backend
   const fetchCart = async () => {
-    const res = await fetch('/api/cart', { headers: API_HEADERS })
+    const res = await fetch('https://tasteofmom.onrender.com/api/cart', { headers: API_HEADERS })
     const data = await res.json()
     setCart(data)
   }
@@ -30,7 +30,7 @@ export default function App() {
   }, [])
 
   const addToCart = async (productId) => {
-    await fetch('/api/cart', {
+    await fetch('https://tasteofmom.onrender.com/api/cart', {
       method: 'POST',
       headers: API_HEADERS,
       body: JSON.stringify({ productId, quantity: 1 })
@@ -39,7 +39,7 @@ export default function App() {
   }
 
   const updateQuantity = async (productId, quantity) => {
-    await fetch(`/api/cart/${productId}`, {
+    await fetch(`https://tasteofmom.onrender.com/api/cart/${productId}`, {
       method: 'PUT',
       headers: API_HEADERS,
       body: JSON.stringify({ quantity })
@@ -48,7 +48,7 @@ export default function App() {
   }
 
   const removeItem = async (productId) => {
-    await fetch(`/api/cart/${productId}`, {
+    await fetch(`https://tasteofmom.onrender.com/api/cart/${productId}`, {
       method: 'DELETE',
       headers: API_HEADERS
     })
@@ -56,7 +56,7 @@ export default function App() {
   }
 
   const placeOrder = async (formData) => {
-    const res = await fetch('/api/order', {
+    const res = await fetch('https://tasteofmom.onrender.com/api/order', {
       method: 'POST',
       headers: API_HEADERS,
       body: JSON.stringify(formData)
