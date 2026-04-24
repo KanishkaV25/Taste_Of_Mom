@@ -1,0 +1,256 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "server.js",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\backend\\server.js",
+      "source_location": "L1",
+      "id": "j_tasteofmom_backend_server_js",
+      "community": 7,
+      "norm_label": "server.js"
+    },
+    {
+      "label": "products.js",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\backend\\data\\products.js",
+      "source_location": "L1",
+      "id": "j_tasteofmom_backend_data_products_js",
+      "community": 8,
+      "norm_label": "products.js"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\vite.config.js",
+      "source_location": "L1",
+      "id": "j_tasteofmom_frontend_vite_config_js",
+      "community": 9,
+      "norm_label": "vite.config.js"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\App.jsx",
+      "source_location": "L1",
+      "id": "j_tasteofmom_frontend_src_app_jsx",
+      "community": 0,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\App.jsx",
+      "source_location": "L16",
+      "id": "app_app",
+      "community": 0,
+      "norm_label": "app()"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\main.jsx",
+      "source_location": "L1",
+      "id": "j_tasteofmom_frontend_src_main_jsx",
+      "community": 10,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "Cart.jsx",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\Cart.jsx",
+      "source_location": "L1",
+      "id": "j_tasteofmom_frontend_src_components_cart_jsx",
+      "community": 1,
+      "norm_label": "cart.jsx"
+    },
+    {
+      "label": "Cart()",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\Cart.jsx",
+      "source_location": "L1",
+      "id": "cart_cart",
+      "community": 1,
+      "norm_label": "cart()"
+    },
+    {
+      "label": "Checkout.jsx",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\Checkout.jsx",
+      "source_location": "L1",
+      "id": "j_tasteofmom_frontend_src_components_checkout_jsx",
+      "community": 2,
+      "norm_label": "checkout.jsx"
+    },
+    {
+      "label": "Checkout()",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\Checkout.jsx",
+      "source_location": "L3",
+      "id": "checkout_checkout",
+      "community": 2,
+      "norm_label": "checkout()"
+    },
+    {
+      "label": "Navbar.jsx",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\Navbar.jsx",
+      "source_location": "L1",
+      "id": "j_tasteofmom_frontend_src_components_navbar_jsx",
+      "community": 3,
+      "norm_label": "navbar.jsx"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\Navbar.jsx",
+      "source_location": "L1",
+      "id": "navbar_navbar",
+      "community": 3,
+      "norm_label": "navbar()"
+    },
+    {
+      "label": "OrderHistory.jsx",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\OrderHistory.jsx",
+      "source_location": "L1",
+      "id": "j_tasteofmom_frontend_src_components_orderhistory_jsx",
+      "community": 4,
+      "norm_label": "orderhistory.jsx"
+    },
+    {
+      "label": "OrderHistory()",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\OrderHistory.jsx",
+      "source_location": "L3",
+      "id": "orderhistory_orderhistory",
+      "community": 4,
+      "norm_label": "orderhistory()"
+    },
+    {
+      "label": "ProductCard.jsx",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\ProductCard.jsx",
+      "source_location": "L1",
+      "id": "j_tasteofmom_frontend_src_components_productcard_jsx",
+      "community": 5,
+      "norm_label": "productcard.jsx"
+    },
+    {
+      "label": "ProductCard()",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\ProductCard.jsx",
+      "source_location": "L1",
+      "id": "productcard_productcard",
+      "community": 5,
+      "norm_label": "productcard()"
+    },
+    {
+      "label": "ProductList.jsx",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\ProductList.jsx",
+      "source_location": "L1",
+      "id": "j_tasteofmom_frontend_src_components_productlist_jsx",
+      "community": 6,
+      "norm_label": "productlist.jsx"
+    },
+    {
+      "label": "ProductList()",
+      "file_type": "code",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\ProductList.jsx",
+      "source_location": "L4",
+      "id": "productlist_productlist",
+      "community": 6,
+      "norm_label": "productlist()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\App.jsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_src": "j_tasteofmom_frontend_src_app_jsx",
+      "_tgt": "app_app",
+      "source": "j_tasteofmom_frontend_src_app_jsx",
+      "target": "app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\Cart.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "j_tasteofmom_frontend_src_components_cart_jsx",
+      "_tgt": "cart_cart",
+      "source": "j_tasteofmom_frontend_src_components_cart_jsx",
+      "target": "cart_cart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\Checkout.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "j_tasteofmom_frontend_src_components_checkout_jsx",
+      "_tgt": "checkout_checkout",
+      "source": "j_tasteofmom_frontend_src_components_checkout_jsx",
+      "target": "checkout_checkout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\Navbar.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "j_tasteofmom_frontend_src_components_navbar_jsx",
+      "_tgt": "navbar_navbar",
+      "source": "j_tasteofmom_frontend_src_components_navbar_jsx",
+      "target": "navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\OrderHistory.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "j_tasteofmom_frontend_src_components_orderhistory_jsx",
+      "_tgt": "orderhistory_orderhistory",
+      "source": "j_tasteofmom_frontend_src_components_orderhistory_jsx",
+      "target": "orderhistory_orderhistory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\ProductCard.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "j_tasteofmom_frontend_src_components_productcard_jsx",
+      "_tgt": "productcard_productcard",
+      "source": "j_tasteofmom_frontend_src_components_productcard_jsx",
+      "target": "productcard_productcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "J:\\tasteOfMom\\frontend\\src\\components\\ProductList.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "j_tasteofmom_frontend_src_components_productlist_jsx",
+      "_tgt": "productlist_productlist",
+      "source": "j_tasteofmom_frontend_src_components_productlist_jsx",
+      "target": "productlist_productlist",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

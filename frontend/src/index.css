@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fdf8f3;
+  color: #2c2c2a;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.cart-btn {
+  background: #b85c2c;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 28px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  box-shadow: 0 4px 12px rgba(184, 92, 44, 0.3);
+  transition: all 0.2s ease;
+}
+
+.cart-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(184, 92, 44, 0.4);
+  background: #c6622e;
+}
+
+.cta-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #2a8a5c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-btn:hover:not(:disabled) {
+  background: #206d48;
+  transform: translateY(-1px);
+}
+
+.cta-btn:disabled {
+  background: #ddd;
+  color: #888;
+  cursor: not-allowed;
+  transform: none;
+}
