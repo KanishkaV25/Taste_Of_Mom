@@ -1,6 +1,5 @@
 # TasteOfMom — Authentic Homemade Food Platform
 
-![TasteofMom Banner](https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80)
 
 👉 **Live Demo:** [taste-of-mom.vercel.app](https://taste-of-mom.vercel.app/)
 
